@@ -1,0 +1,15 @@
+{
+  "name": "medintel-nexus-prototype",
+  "version": "0.9.0",
+  "private": true,
+  "type": "module",
+  "description": "MedIntel Nexus Round 1 demonstration prototype - synthetic data only, no third-party runtime dependencies.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
