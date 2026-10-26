@@ -1,0 +1,40 @@
+# Environment and secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+credentials.json
+secrets.json
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# Logs and caches
+*.log
+npm-debug.log*
+.cache/
+.tmp/
+tmp/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local-only OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Generated document binaries (produced locally on demand; sources are Markdown)
+submission/*.tmp.*
+~$*
